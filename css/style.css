@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+/*This is Main Header */
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  background: url(../imges/01.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 1px blue;
+  word-spacing: 10px;
+}
+
+/* header number 1 */
+.head1 {
+  font-size: 2.5vw;
+  color: darkred;
+  text-shadow: 2px 2px 5px rgb(110, 22, 22);
+}
+
+/* header number 2 */
+.head2 {
+  font-size: 2.5vw;
+  color: darkgreen;
+  text-shadow: 2px 2px 5px green;
+}
+
+/* Pargraph number 2 has 3 column*/
+.text {
+  text-align: center;
+  column-count: 3;
+  column-gap: 30px;
+  column-rule: 3px solid red;
+}
+
+/* Hr */
+hr {
+  width: 50%;
+  height: 5px;
+  background-color: rgb(187, 64, 70);
+  margin-bottom: 50px;
+}
+
+/* This code is not runingggggggggggggggggggggggggggggggggggggggggg */
+
+/*  'Dancing Script', cursive font */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Corinthia:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Pargraph number 3 */
+.text2 {
+  width: 75%;
+  border: 5px dashed red;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+/* marquee Desinge */
+marquee {
+  height: 40px;
+  margin-top: 90px;
+  padding: 12px;
+  background-color: hotpink;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-bottom: -15px;
+}
